@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	 height: 200vh; /* my image wasnt changing border radius when I reached the bottom of the page */
+}
+
+.header{
+	min-height:100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+nav img{
+	width: 150px;
+}
+
+.nav-links > ul{
+	max-width: 650px;
+}
+
+.nav-links{
+	flex: flex;   
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;	
+}
+.sub-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/eLearning.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+	padding-bottom: 20px;
+}
+
+/* Introduction information text with image next to it and h1 element in line with image */
+.pageOne{
+	max-width: 1500px;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.intro{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	gap: 20px;
+	width: 100%;
+	/* flex: 1; */
+}
+
+.intro > img{
+	max-width: 500px;
+	border-radius: 20px;
+}
+
+
+.text-container{
+	/* flex: 1; */
+	text-align: justify;
+	max-width: 500px;
+}
+.text-container > h1{
+	padding: 0 0 20px 0;
+}
+/* @media (max-width: 500px){
+	.intro > img {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		object-position: center;
+	}
+} */
+	
+
+/* second part of page 1 trying to make it all look nice */
+.inclusive{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	max-width: 1500px;
+	margin: auto;
+	margin-top: 30px;	
+	
+}
+
+#inclusive-img{
+	margin-top: 40px;
+	max-width: 500px;
+	border-radius: 20px;
+}
+
+#quote{
+	margin: 15px
+}
+#inclusive-title{
+	margin-bottom: 20px;
+}
+
+.section-img{
+	min-width: 300px;
+}
+
+/* footer of page 1 most likely a back to top button and a button that goes to reference page */
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+/* page two content*/
+.sub-header2{
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/imageOne.png);
+	min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header2 > h1{
+	margin-top: 100px;
+	padding-bottom: 20px;
+}
+
+
+#imgS1{
+	position: relative;
+	left: 50%;
+	bottom: 50%;
+	border: red 1px solid;
+}
+

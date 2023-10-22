@@ -4,14 +4,16 @@
 	scroll-behavior: smooth;
 	font-family: 'Poppins', sans-serif;
 }
-
+* > a{
+	text-decoration: none !important;
+}
 body{
 	min-height: 100vh;
-	 height: 200vh; /* my image wasnt changing border radius when I reached the bottom of the page */
+	 height: 200vh; 
 }
 
 .header{
-	min-height:100vh;
+	min-height:200vh;
 	width: 100%;
 	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
 	background-position: center;
@@ -61,7 +63,7 @@ nav img{
 	padding-bottom: 20px;
 }
 
-/* Introduction information text with image next to it and h1 element in line with image */
+
 .pageOne{
 	max-width: 1500px;
 	margin: auto;
@@ -73,51 +75,55 @@ nav img{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: flex-start;
+	align-items: end;
 	gap: 20px;
 	width: 100%;
-	/* flex: 1; */
 }
 
 .intro > img{
 	max-width: 500px;
 	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+	border: black 1px solid;
+	padding: 0px;
 }
 
-
 .text-container{
-	/* flex: 1; */
 	text-align: justify;
-	max-width: 500px;
+	max-width: 600px;
+}
+.text2-container{
+	text-align: justify;
 }
 .text-container > h1{
 	padding: 0 0 20px 0;
 }
-/* @media (max-width: 500px){
-	.intro > img {
-		height: 200px;
-		width: 200px;
-		object-fit: cover;
-		object-position: center;
-	}
-} */
 	
 
-/* second part of page 1 trying to make it all look nice */
 .inclusive{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	max-width: 1500px;
+	align-items: center;
+	width: 100%;
 	margin: auto;
 	margin-top: 30px;	
-	
+	background-color: #D1EDF2;
+	background-size: cover;
 }
+
+.text2-container > p{
+	max-width: 1500px;
+}
+
+
 
 #inclusive-img{
 	margin-top: 40px;
-	max-width: 500px;
+	max-width: 700px;
 	border-radius: 20px;
+	border: black 1px solid;
 }
 
 #quote{
@@ -131,21 +137,6 @@ nav img{
 	min-width: 300px;
 }
 
-/* footer of page 1 most likely a back to top button and a button that goes to reference page */
-
-
-
-
-	
-
-
-	
-
-
-
-
-
-
 
 /* page two content*/
 .sub-header2{
@@ -156,17 +147,68 @@ nav img{
     background-size: cover;
     text-align: center;
     color: #fff;
+	font-weight: inherit
 }
 .sub-header2 > h1{
 	margin-top: 100px;
 	padding-bottom: 20px;
 }
 
+.pageTwo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	width: 100%;
+	text-align: justify;
+	font-size: 16px;
+}
+.MOOC{
+	display: flex;
+	flex-direction: row;
+	max-width: 600px;
+	margin-left:5px;  
+	border: black 1px solid;
 
-#imgS1{
-	position: relative;
-	left: 50%;
-	bottom: 50%;
-	border: red 1px solid;
+}
+.size{
+	font-size: 40px;
+	font-weight: 500;
 }
 
+.text3-container{
+	display: flex;
+	flex-direction: column;
+	width: 1500px; 	
+	background-size: cover;
+	margin: auto;
+	text-align: justify;
+}
+#UN{
+	display: block;
+	width: 40vh;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	border: black 1px solid;
+}
+
+#move{
+	margin-top: 40px;
+}
+#move1{
+	margin: 20px 0px 30px 0px;
+}
+#OER{
+	width: 40vh;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 20px;
+	border: black 1px solid;
+}
+.BGC{
+	background-color: #D1EDF2;
+}
+.imageSource{
+	margin-top: .5em;
+}

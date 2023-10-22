@@ -80,14 +80,7 @@ nav img{
 	width: 100%;
 }
 
-.intro > img{
-	max-width: 500px;
-	border-radius: 20px;
-	display: block;
-	margin: 0 auto;
-	border: black 1px solid;
-	padding: 0px;
-}
+
 
 .text-container{
 	text-align: justify;
@@ -184,28 +177,11 @@ nav img{
 	margin: auto;
 	text-align: justify;
 }
-#UN{
-	display: block;
-	width: 40vh;
-	margin: 0 auto;
-	border-radius: 20px;
-	margin-bottom: 50px;
-	border: black 1px solid;
-}
 
-#move{
-	margin-top: 40px;
-}
 #move1{
 	margin: 20px 0px 30px 0px;
 }
-#OER{
-	width: 40vh;
-	margin: 0 auto;
-	margin-top: 40px;
-	border-radius: 20px;
-	border: black 1px solid;
-}
+
 .BGC{
 	background-color: #D1EDF2;
 }
@@ -213,6 +189,8 @@ nav img{
 	margin-top: .5em;
 }
 
+
+/* STUFF I'VE CHANGED - AARON */
 .moadd-image-ref {
 	text-align: center;
 }
@@ -225,3 +203,36 @@ nav img{
 	border: black 1px solid;
 	padding: 0px;
 }
+
+#UN{
+	display: block;
+	width: 40vh;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-bottom: 0px;
+	border: black 1px solid;
+}
+
+#moadd-image-ref5 {
+	margin-bottom: 50px;
+}
+
+.image-container > #OER{
+	display: block;
+	width: 40vh;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 20px;
+	border: black 1px solid;
+}
+
+.title-test {
+	text-align: center;
+}
+
+#move{
+	margin-top: 40px;
+	margin-bottom: 2rem;
+}
+
+/* END OF STUFF I'VE CHANGED */

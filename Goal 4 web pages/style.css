@@ -212,3 +212,16 @@ nav img{
 .imageSource{
 	margin-top: .5em;
 }
+
+.moadd-image-ref {
+	text-align: center;
+}
+
+.intro > .image-container > img{
+	max-width: 500px;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+	border: black 1px solid;
+	padding: 0px;
+}
